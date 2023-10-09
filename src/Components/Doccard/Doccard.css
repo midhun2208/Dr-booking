@@ -1,0 +1,16 @@
+.cards{
+    margin: 20px 5px;
+    padding: 5px;
+    
+}
+
+@media only screen and (max-width: 600px){
+    .cards{
+        margin: 0px 0px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 10px;
+        /* margin-left: 25px; */
+        
+    }
+}
