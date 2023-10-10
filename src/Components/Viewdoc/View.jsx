@@ -16,7 +16,7 @@ function View() {
     const [docDetails,setDocDetails] = useState({})
 const {id} = useParams()
 const fetchData = async ()=> {
-    const {data} = await axios.get(`http://localhost:3001/doctors/${id}`)
+    const {data} = await axios.get(`https://dr-server.onrender.com/doctors/${id}`)
     
     setDocDetails(data)
    
