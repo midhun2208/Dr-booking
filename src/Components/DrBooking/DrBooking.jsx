@@ -11,7 +11,7 @@ function DrBooking() {
    
   const fetchData = async()=>{
 
-    const response = await axios.get('http://localhost:3001/doctors')
+    const response = await axios.get('https://dr-server.onrender.com/doctors')
    
     setAlldoc(response.data)
     console.log(alldoc);
